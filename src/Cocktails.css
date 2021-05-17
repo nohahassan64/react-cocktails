@@ -64,6 +64,10 @@ Variables
     text-decoration: none;
     color: var(--mainBlack);
   }
+  img {
+    width: 100%;
+    display: block;
+  }
   
   /* 
   ====== 
