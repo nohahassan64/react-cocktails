@@ -12,9 +12,9 @@ const App = () => {
         <BrowserRouter>
             <Navbar />
             <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/cocktail/:id" component={SingleCocktail} />
+                <Route  path="/about" component={About} />
+                <Route  path="/cocktail/:id" component={SingleCocktail} />
+                <Route  path="/" component={Home} />
                 <Route path="*" component={Error} />
             </Switch>
             
