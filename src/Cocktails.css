@@ -4,8 +4,8 @@ Variables
 ======
 */
 :root {
-    --primaryLightColor: #d4e6a5;
-    --primaryColor: #476a2e;
+    --primaryLightColor: #Fff;
+    --primaryColor: #94373E;
     --primaryDarkColor: #c02c03;
     --mainWhite: #fff;
     --offWhite: #f7f7f7;
@@ -64,10 +64,6 @@ Variables
     text-decoration: none;
     color: var(--mainBlack);
   }
-  img {
-    width: 100%;
-    display: block;
-  }
   
   /* 
   ====== 
@@ -89,9 +85,11 @@ Variables
     background: transparent;
     border-radius: var(--mainBorderRadius);
     display: inline-block;
+    border: 1px solid var(--primaryColor);
   }
   .btn:hover {
     background: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
     color: var(--mainWhite);
   }
   .btn-white {
@@ -105,11 +103,12 @@ Variables
   }
   .btn-primary {
     background: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
     color: var(--mainWhite);
-    border-color: transparent;
   }
   .btn-primary:hover {
     background: var(--primaryLightColor);
+    border: 1px solid var(--primaryColor);
     color: var(--primaryColor);
   }
   .btn-block {
@@ -124,13 +123,19 @@ Variables
   }
   .btn-details:hover {
     background: var(--primaryLightColor);
-    border-color: var(--primaryLightColor);
+    border: 1px solid var(--primaryColor);
   }
   /* 
   ====== 
   Navbar
   ======
   */
+  .logo {
+    font-size: 2rem;
+    color: var(--primaryColor);
+    margin-top: 1rem;
+    font-family: 'Pattaya', sans-serif;
+  }
   .navbar {
     background: var(--mainWhite);
     height: 5rem;
