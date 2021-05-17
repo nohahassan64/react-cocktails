@@ -15,7 +15,6 @@ const App = () => {
                 <Route  path="/about" component={About} />
                 <Route  path="/cocktail/:id" component={SingleCocktail} />
                 <Route  path="/" component={Home} />
-                <Route path="*" component={Error} />
             </Switch>
             
         </BrowserRouter>
